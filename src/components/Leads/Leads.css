@@ -1,0 +1,331 @@
+.search-col {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.buttons {
+    border-radius: 45px;
+}
+
+.divider-line1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #3f4254;
+}
+
+.divider-line {
+    margin-bottom: 1rem;
+    margin-top: 0px !important;
+    border: 0;
+    border-top: 1px solid #3f4254;
+}
+
+.spacing-1 {
+    padding: 0.5em 4em 0.5em 2em;
+}
+
+.spacing-2 {
+    padding: 1em 4em 1em 2em;
+    margin: 0px;
+}
+
+.spacing-1-1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pad-button {
+    padding: 0px 8px 0px 8px;
+}
+
+.button-col {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    font-size: 13px;
+}
+
+.search-icon {
+    border-radius: 40px 0px 0px 40px;
+    background-color: white;
+    border: 0px;
+}
+
+.search-input {
+    border-radius: 0px 40px 40px 0px;
+    background-color: #ffffff;
+    background-color: white !important;
+    margin-left: 0px;
+    border: 0pc;
+    outline: 0px;
+    padding-left: 0px;
+    box-shadow: none !important;
+    border-color: white !important;
+}
+
+.add-button {
+    height: 50px;
+    cursor: pointer;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.search-button {
+    height: 15px;
+}
+
+.containerBox {
+    background-color: #f3f6f9;
+    height: calc(100vh - 4em);
+    padding: 0px;
+    margin: 0px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.table-head {
+    background-color: #e5e5e5;
+}
+
+.table {
+    border: 1px solid #e5e5e5;
+}
+
+.table-body {
+    background-color: #ffffff;
+}
+
+.body-tr {
+    padding: 12px !important;
+    font-weight: 400;
+    font-size: 14px !important;
+}
+
+.text-name {
+    font-weight: 600;
+}
+
+.form-input {
+    background-color: #ffffff;
+    padding: 2%;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 2em 7em 2.5em 2em;
+}
+
+.plusbutton {
+    height: 60px;
+}
+
+.plus-button-container {
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+}
+
+.button-container {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table-container {
+    margin-top: 20px;
+}
+
+.status-success {
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 45px;
+    width: 40%;
+    padding: 5px;
+}
+
+.status-failure {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 45px;
+    width: 40%;
+    padding: 5px;
+}
+
+.width15 {
+    width: 15%;
+}
+
+.width20 {
+    width: 20%;
+}
+
+.width12 {
+    width: 8%;
+}
+
+.width6 {
+    width: 7%;
+}
+
+.action {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.iconAction {
+    height: 11px;
+    padding-right: 5px;
+}
+
+.iconDetail {
+    font-size: 12px !important;
+}
+
+.paddingLeft {
+    padding-left: 10px;
+    border-left: 1px solid #e5e5e5;
+    cursor: pointer;
+}
+
+.paddingRight {
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px solid #e5e5e5;
+    cursor: pointer;
+}
+
+.paddingMiddle {
+    cursor: pointer;
+    padding: 0px 10px 0px 10px;
+}
+
+.active {
+    background-color: #30346b !important;
+    color: white;
+}
+
+.dropdown-org {
+    width: 100%;
+    padding: 0.9em 0.8em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color: black !important;
+    display: flex;
+    border-color: rgb(206, 212, 218);
+}
+
+.dropdown-org:hover {
+    background-color: white;
+    border-color: rgb(206, 212, 218);
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.show > .btn-success.dropdown-toggle {
+    background-color: white;
+    border-color: rgb(206, 212, 218);
+}
+
+.show > .btn-primary.dropdown-toggle {
+    background-color: white;
+    border-color: rgb(206, 212, 218);
+}
+
+.dropdown-option {
+    width: 100%;
+    padding: 5px 15px;
+}
+
+.dropdown-menuspace {
+    width: 100%;
+    height: 20vh;
+    overflow-y: scroll;
+}
+
+.span-container {
+    padding: 12px;
+}
+
+.span-style {
+    padding: 5px 12px;
+    background-color: darkgray;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+
+.org-list-container > * {
+    margin-top: 8px;
+}
+
+.org-list-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon-align {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bot-name {
+    padding: 5px 8px;
+    margin-right: 3px;
+    background-color: bisque;
+    border-radius: 20px;
+}
+
+.select-field {
+    padding: 3%;
+}
+
+.title-header {
+    font-size: 16px !important;
+}
+
+.bot-dropdown {
+    padding-bottom: 12px;
+}
+
+.table-row > td {
+    font-size: 14px !important;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.table-row > td,
+.table-row > th {
+    padding: 12px;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #fff;
+    border-color: none;
+}
+
+.capitialize {
+    text-transform: capitalize;
+}
